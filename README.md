@@ -1,6 +1,6 @@
-# Even Darker Flat UI #WIP
+# Even Darker Flat UI
 
-Dark and flat UI theme for Atom.
+Dark and flat ui theme for Atom.
 
 [Screenshot incoming]
 <!---
