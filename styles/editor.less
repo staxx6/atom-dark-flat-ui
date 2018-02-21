@@ -2,7 +2,7 @@
 @import "ui-mixins";
 @import "syntax-variables";
 
-atom-text-editor::shadow {
+atom-text-editor.editor {
   ::-webkit-scrollbar-thumb {
     background-color: @syntax-selection-color;
   }
@@ -13,7 +13,7 @@ atom-text-editor::shadow {
   }
 }
 
-atom-text-editor[mini] {
+atom-text-editor[mini].editor.editor {
   color: @text-color-highlight;
   padding-left: @component-padding / 2;
   background-color: @dark-flat-ui-dark-gray;
@@ -23,7 +23,7 @@ atom-text-editor[mini] {
     background-color: @dark-flat-ui-super-duper-dark-gray;
   }
 
-  &::shadow .is-focused .selection .region {
+  &.is-focused .selection .region {
     background-color: @dark-flat-ui-light-gray!important;
   }
 }

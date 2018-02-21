@@ -1,9 +1,9 @@
 {
-  "name": "dark-flat-ui",
+  "name": "even-darker-flat-ui",
   "theme": "ui",
-  "main": "lib/dark-flat-ui",
-  "version": "1.2.4",
-  "description": "A dark flat ui theme",
+  "main": "lib/even-darker-flat-ui",
+  "version": "0.0.1",
+  "description": "A even darker flat ui theme",
   "keywords": [
     "dark",
     "flat",
@@ -11,9 +11,9 @@
     "grey",
     "gray"
   ],
-  "repository": "https://github.com/olmokramer/atom-dark-flat-ui",
+  "repository": "https://github.com/staxx6/atom-even-darker-flat-ui",
   "license": "MIT",
   "engines": {
-    "atom": ">0.140.0"
+    "atom": ">1.13.0"
   }
 }
